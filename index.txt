@@ -1,7 +1,0 @@
-greet	Namaste bolne wala hello package
-sysinfo	system ka quick snapshot
-matrix	matrix-style pattern print
-calc	calculator — calc 2 + 3
-rot13	text ko ROT13 me badlo
-fortune	random motivation
-todo	chhota task manager — todo add/list/count
