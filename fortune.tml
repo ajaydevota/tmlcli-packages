@@ -1,7 +1,0 @@
-TMLPKG1
-name: fortune
-desc: random motivation
----
-#!/bin/tmlsh
-echo "Waqt sab ka aata hai — TMLcli ka bhi aayega."
-echo "Persistence > Talent."
