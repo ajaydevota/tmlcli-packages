@@ -1,0 +1,15 @@
+TMLPKG1
+name: todo
+desc: chhota task manager — todo add/list/count
+---
+#!/bin/tmlsh
+if [ "$1" = "add" ]; then
+  echo "[ ] $2" >> $HOME/todo.txt
+  echo "add ho gaya: $2"
+elif [ "$1" = "list" ]; then
+  cat $HOME/todo.txt
+elif [ "$1" = "count" ]; then
+  echo $(cat $HOME/todo.txt | wc -l) kaam pending
+else
+  echo "usage: todo add <kaam> | list | count"
+fi
