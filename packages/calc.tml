@@ -1,0 +1,6 @@
+TMLPKG1
+name: calc
+desc: calculator — calc 2 + 3
+---
+#!/bin/tmlsh
+expr $1 $2 $3
