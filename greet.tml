@@ -1,6 +1,0 @@
-TMLPKG1
-name: greet
-desc: Namaste bolne wala hello package
----
-#!/bin/tmlsh
-echo Namaste $1! TMLcli package greet bol raha hai.
