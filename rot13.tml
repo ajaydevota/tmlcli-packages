@@ -1,6 +1,0 @@
-TMLPKG1
-name: rot13
-desc: text ko ROT13 me badlo
----
-#!/bin/tmlsh
-echo $1 | tr 'a-zA-Z' 'n-za-mN-ZA-M'
